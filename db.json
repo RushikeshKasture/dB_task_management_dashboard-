@@ -1,0 +1,99 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@example.com",
+      "password": "admin123",
+      "name": "Admin User",
+      "token": "mock-jwt-token-admin"
+    },
+    {
+      "id": "2",
+      "email": "user@example.com",
+      "password": "user123",
+      "name": "Regular User",
+      "token": "mock-jwt-token-user"
+    }
+  ],
+  "projects": [
+    {
+      "id": "bd13",
+      "name": "Project 1",
+      "description": "Project 1 description details",
+      "userId": "1",
+      "createdAt": "2025-09-16T07:51:18.760Z"
+    },
+    {
+      "id": "a052",
+      "name": "Project 2",
+      "description": "Project 2 description details",
+      "userId": "1",
+      "createdAt": "2025-09-16T07:51:26.623Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "3bd5",
+      "title": "Task1_project1",
+      "description": "Task 1of prject 1",
+      "status": "completed",
+      "dueDate": "2025-09-16T00:00:00.000Z",
+      "projectId": "bd13",
+      "userId": "1",
+      "createdAt": "2025-09-16T07:51:57.689Z",
+      "updatedAt": "2025-09-16T12:43:57.309Z"
+    },
+    {
+      "id": "d05a",
+      "title": "Task1_project2",
+      "description": "Task 1 of project 2",
+      "status": "in-progress",
+      "dueDate": "2025-09-11T00:00:00.000Z",
+      "projectId": "a052",
+      "userId": "1",
+      "createdAt": "2025-09-16T07:52:19.065Z",
+      "updatedAt": "2025-09-16T12:43:40.739Z"
+    },
+    {
+      "id": "035f",
+      "title": "Task2_project1",
+      "description": "Task 2 of project 1",
+      "status": "created",
+      "dueDate": "2025-09-10T00:00:00.000Z",
+      "projectId": "bd13",
+      "userId": "1",
+      "createdAt": "2025-09-16T07:52:54.898Z",
+      "updatedAt": "2025-09-16T12:43:21.935Z"
+    },
+    {
+      "id": "a457",
+      "title": "Task3",
+      "description": "Task3 of project1",
+      "status": "created",
+      "dueDate": "2025-09-16T00:00:00.000Z",
+      "projectId": "bd13",
+      "createdAt": "2025-09-16T10:06:15.457Z",
+      "updatedAt": "2025-09-16T12:43:31.853Z"
+    },
+    {
+      "id": "1414",
+      "title": "Test",
+      "description": "Test5000",
+      "status": "in-progress",
+      "dueDate": "2025-09-16T00:00:00.000Z",
+      "projectId": "a052",
+      "createdAt": "2025-09-16T10:11:58.262Z",
+      "updatedAt": "2025-09-16T12:43:50.010Z"
+    },
+    {
+      "id": "5f3d",
+      "title": "added",
+      "description": "added task ",
+      "status": "completed",
+      "dueDate": "2025-09-27T00:00:00.000Z",
+      "projectId": "bd13",
+      "createdAt": "2025-09-16T13:50:26.517Z",
+      "updatedAt": "2025-09-16T13:50:34.853Z"
+    }
+  ]
+}
